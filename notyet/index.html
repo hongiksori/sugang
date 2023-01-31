@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>잠깐! - 홍익수강</title>
+  <meta name="author" content="HongikSugang">
+  <meta name="description" content="홍익수강 - 홍익대학교 수강신청 연습">
+  <meta name="theme-color" content="#1C3966">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="홍익수강">
+  <meta property="og:description" content="홍익수강 - 홍익대학교 수강신청 연습">
+  <meta property="og:image" content="/assets/logo.png">
+  <meta property="og:url" content="https://sugang.hongiksori.com">
+  <link rel="shortcut icon" href="/assets/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="/cssjs/mainStyle.css?v=231">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script data-ad-client="ca-pub-9909010355156782" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146466073-1"></script>
+  <script defer src="/cssjs/mainApp.js?v=231"></script>
+  <script>
+    {
+      const month = new Date().getMonth()
+      if (month === 1 || month === 7) location.replace("/")
+    }
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-146466073-1');
+  </script>
+</head>
+
+<body>
+  <nav id="topNav">
+    <a href="/" id="logo"><img src="/assets/logo.svg" alt="Logo"></a>
+  </nav>
+  <main>
+    <article>
+      <div id="articleInfo">
+        <header>
+          <h1 id="headline" style="color: #eeeeee">잠깐!</h1>
+        </header>
+        <div id="AboutImage" style="background-color: #1C3966;"></div>
+      </div>
+
+      <section>
+        <p>수강신청 기간이 아니에요. 새로운 모습으로 <span id="htmlMonth"></span>월에 만나요~</p>
+      </section>
+    </article>
+  </main>
+  
+  <script>
+    const htmlMonth = document.querySelector('#htmlMonth');
+    const month = new Date().getMonth();
+    htmlMonth.innerHTML = (0 < month && month < 8) ? 8 : 2;
+  </script>
+</body>
+
+</html>

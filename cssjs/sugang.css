@@ -1,0 +1,218 @@
+#sugang {
+  font-family: ����;
+  font-size: 12px;
+  line-height: 19px;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  color: #555555;
+  text-align: initial;
+}
+
+.display-none {
+  display: none;
+}
+
+#sugang-logo {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 485px;
+  margin: 0;
+}
+
+#sugang-logo img {
+  height: 32px;
+}
+
+#sugang P, #sugang TH, #sugang TD, #sugang INPUT {
+  font-family: ����;
+  font-size: 12px;
+  line-height: 19px
+}
+
+#sugang A:link, #sugang A:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+#sugang A:active {
+  text-decoration: none;
+  color: #ff9550;
+}
+
+#sugang A:hover, .failed:hover {
+  color: #ff9550;
+  text-decoration: underline;
+}
+
+.failed {
+  cursor: pointer;
+  color: #000000;
+}
+
+#sugang .title {
+  font-family: �ü�;
+  font-size: 20px;
+  color: red
+}
+
+#sugang .linebox {
+  border: 1px solid #888;
+  padding: 10px;
+  line-height: 20px;
+  color: #000000;
+}
+
+#sugang .input {
+  border: solid 1 #999999;
+  font-family: ����;
+  font-size: 12px;
+  color: black;
+  background-color: white;
+  line-height: 19px
+}
+
+#sugang .button {
+  border: solid 1 #5E5E5E;
+  font-family: ����;
+  font-size: 12px;
+  color: black;
+  background-color: #CCCCCC;
+  line-height: 16px
+}
+
+#sugang .inputA {
+  BORDER-RIGHT: #AAAAAA 1px solid;
+  BORDER-TOP: #AAAAAA 1px solid;
+  FONT-SIZE: 12px;
+  BORDER-LEFT: #AAAAAA 1px solid;
+  BORDER-BOTTOM: #AAAAAA 1px solid;
+  COLOR: #666666;
+  HEIGHT: 18px;
+  BACKGROUND-COLOR: #ffffff;
+}
+
+#sugang .buttonA {
+  BORDER-RIGHT: #AAAAAA 1px solid;
+  BORDER-TOP: #AAAAAA 1px solid;
+  FONT-SIZE: 12px;
+  BORDER-LEFT: #AAAAAA 1px solid;
+  BORDER-BOTTOM: #AAAAAA 1px solid;
+  COLOR: #000000;
+  HEIGHT: 22px;
+  BACKGROUND-COLOR: #FFFFFF;
+}
+
+select {
+  margin: 0;
+  border: 1px solid #333;
+  color: #333;
+  background: #fff;
+  font-size: 12px;
+}
+
+#sugang .bar li {
+  list-style-image: url("http://emp.hongik.ac.kr/win/images/li-bar.gif");
+  list-style-position: inside;
+  font-family: ����, 돋움, verdana;
+  font-size: 12px;
+  color: #aaa;
+  background: url("http://emp.hongik.ac.kr/win/images/line-dot.gif");
+}
+
+#sugang .h20 {
+  line-height: 20px;
+}
+
+#sugang .s5 {
+  padding-bottom: 5px;
+}
+
+#sugang .s10 {
+  padding-bottom: 10px;
+}
+
+#sugang .s20 {
+  padding-bottom: 20px;
+}
+
+#sugang .s30 {
+  padding-bottom: 30px;
+}
+
+#sugang .txti {
+  color: #001D68;
+}
+
+#sugang .txtc {
+  color: #001D68;
+}
+
+#sugang .txtg {
+  color: #007A9D;
+}
+
+#sugang .txte {
+  color: #DCA341;
+}
+
+#sugang .txto {
+  color: #A23440;
+}
+
+#sugang .txtp {
+  color: #517E1E;
+}
+
+#sugang .txtwh {
+  color: #ffffff;
+}
+
+#sugang .txtgy {
+  color: #b5b5b5;
+}
+
+#sugang .i {
+  background: #001D68;
+}
+
+#sugang .c {
+  background: #00539D;
+}
+
+#sugang .g {
+  background: #007A9D;
+}
+
+#sugang .e {
+  background: #DCA341;
+}
+
+#sugang .o {
+  background: #A23440;
+}
+
+#sugang .p {
+  background: #517E1E;
+}
+
+#sugang .gr {
+  background: #333333;
+}
+
+#sugang .gr1 {
+  background: #474747;
+}
+
+#sugang .wh {
+  background: #ffffff;
+}
+
+#sugang .bk {
+  background: #000000;
+}
+
+#sugang .bl {
+  background: #1E415A;
+}
